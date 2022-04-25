@@ -1,0 +1,64 @@
+/* atribut */
+.color1 {
+  color: #0e185f;
+}
+.color2 {
+  color: #e8ffc2;
+}
+
+.size20 {
+  font-size: 20px;
+}
+.size40 {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 991px) {
+  .judul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .lihat {
+    display: none;
+  }
+  .d-flex .size20 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .lihat2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    width: 200px !important;
+    height: 220px;
+  }
+  .judul3 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+  .p-lokasi {
+    padding-left: 75px;
+  }
+  .kontak-img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .judul2 {
+    font-size: 30px;
+  }
+  .judul {
+    font-size: 3rem;
+  }
+}

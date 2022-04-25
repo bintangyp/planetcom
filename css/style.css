@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+* {
+  font-family: "Montserrat";
+  font-style: normal;
+  color: white;
+}
+body {
+  background-color: #e5e5e5;
+}
+
+/* Style Layer 1 */
+#layer1 {
+  background: linear-gradient(109.33deg, #0e185f 3.7%, rgba(14, 24, 95, 0.41) 102.25%);
+  padding-bottom: 100px;
+}
+
+.putih {
+  background-color: #e5e5e5;
+  height: 82px;
+}
+.navbar {
+  background: linear-gradient(109.33deg, #0e185f 3.7%, rgba(14, 24, 95, 0.41) 102.25%);
+}
+.nav-link {
+  color: #e8ffc2 !important;
+  padding-left: 24px !important;
+}
+
+.cari {
+  background-color: white;
+  width: 270px;
+  height: 40px;
+}
+
+.l-cari {
+  margin-right: -2px;
+}
+
+.kiri {
+  height: fit-content;
+}
+.judul {
+  color: #e8ffc2;
+  font-weight: bold;
+  font-size: 4rem;
+}
+.ket {
+  font-weight: bold;
+  padding-bottom: 33px;
+}
+
+.button {
+  background-color: #1cb6fe;
+  height: 40px;
+  width: 245px;
+  color: #e8ffc2;
+  border-radius: 20px;
+}
+.button:hover {
+  background-color: #e8ffc2;
+  color: #0e185f;
+}
+.gambar {
+  height: auto;
+  width: 100%;
+}
+.lihat2 {
+  padding-top: 20px;
+  text-align: center;
+}
+.lihat2 .ket {
+  padding-bottom: 20px;
+}
+/* Akhir style layer 1 */
+
+/* style Layer 2 */
+.jarak {
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+.judul2 {
+  font-size: 40px;
+  padding-bottom: 38px;
+}
+.card {
+  width: 280px !important;
+  height: 300px;
+  /* background: linear-gradient(152.7deg, #0e185f 1.88%, rgba(14, 24, 95, 0.44) 97.2%); */
+  background: -webkit-linear-gradient(to right, #40487e, #0e185f, #0e185f, #0e185f, #40487e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #40487e, #0e185f, #0e185f, #0e185f, #40487e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 10px !important;
+}
+.card:hover {
+  border: 1px solid;
+}
+
+.row {
+  padding: 0 !important;
+}
+.judul3 {
+  font-weight: bold;
+  margin: 0 !important ;
+  font-size: 20px;
+  color: #d1f4fa !important;
+}
+.card-text {
+  padding: 0 10px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+
+.kontak-kiri {
+  float: left;
+  width: 50%;
+}
+
+.kontak-kanan {
+  float: right;
+  width: 50%;
+  height: 100px;
+}
+
+.img-card {
+  width: 90px;
+}
+
+/* layer 3 */
+#layer3 {
+  background: linear-gradient(109.33deg, #0e185f 3.7%, rgba(14, 24, 95, 0.41) 102.25%);
+}
+
+.kontak-img {
+  width: 80px;
+  height: 80px;
+}
